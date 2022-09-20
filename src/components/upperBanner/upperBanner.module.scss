@@ -1,14 +1,28 @@
 
 .main {
   width: 100%;
-  height: 200px;
+  height: 300px;
   display: flex;
+  flex-direction: column;
   justify-items: center;
   justify-content: center;
   align-items: center;
+  .comp1 {
+    width: 500px;
+    height: 80px;
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+    img {
+      width: 70px;
+      margin-left: 25px;
+    }
+  }
+  .comp2 {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+  }
+
 }
 
-.comp1 {
-  font-size: 4em;
-  font-weight: bolder;
-}
