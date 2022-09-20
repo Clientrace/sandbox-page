@@ -5,11 +5,13 @@ import { motion } from "framer-motion";
 const UpperBanner = () => {
   return (
     <motion.div className={styles.main}>
-      Hi, Babe
+      <motion.div className={styles.comp1}>
+        Hi, Babi
+        <img src="/imgs/penguin.gif"/>
+      </motion.div>
     </motion.div>
   )
 }
-
 
 export default UpperBanner;
 
