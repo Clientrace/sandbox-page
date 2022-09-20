@@ -33,3 +33,25 @@
     font-size: 25px;
   }
 }
+
+.comp3 {
+  height: 40vh;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  .header {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  .image {
+    margin-top: 60px;
+    img {
+      width: 300px;
+    }
+  }
+}

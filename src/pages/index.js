@@ -18,7 +18,6 @@ const Home = () => {
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         transition={{delay: 1}}>
-        Clarence made you a gift 🎁 
       </motion.div>
       <ScrollDown delayOffset={1.5} topMargin={'300px'}/>
       <PageBody delay={2}/>
