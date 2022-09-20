@@ -5,9 +5,7 @@ import { motion } from "framer-motion";
 const UpperBanner = ({delayOffset=0}) => {
   return (
     <motion.div className={styles.main}>
-      <div className={styles.init}>
-        🎁 Clarence made you a gift:
-      </div>
+
       <motion.div
         className={styles.comp1}
         initial={{opacity: 0}}
@@ -23,6 +21,7 @@ const UpperBanner = ({delayOffset=0}) => {
         transition={{duration: 1, delay: 0.3 + delayOffset}}>
         <i>(Or Babe, Leo, Leys, Beb, Leonora)</i>
       </motion.div>
+
     </motion.div>
   )
 }
