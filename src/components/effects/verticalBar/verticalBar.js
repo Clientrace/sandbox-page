@@ -2,13 +2,19 @@
 import { motion } from "framer-motion";
 import styles from "./verticalBar.module.scss";
 
-const VerticalBar = ({width=30, delayOffset=0}) => {
+const VerticalBar = ({width='100%', delayOffset=0}) => {
   return (
-    <motion.div
-      className={styles.main}
-      initial={{width: 0}}
-      animate={{width: '100%'}}
-      transition={{duration: 1, delay: delayOffset}}/>
+    <div className={styles.main}>
+      <div style={{
+        width: width
+      }}>
+        <motion.div
+          className={styles.bar}
+          initial={{width: 0}}
+          whileInView={{width: '100%'}}
+          transition={{duration: 1, delay: delayOffset}}/>
+      </div>
+    </div>
   )
 }
 
