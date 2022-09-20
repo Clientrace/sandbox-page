@@ -6,7 +6,7 @@ import Component1 from './comp1';
 const PageBody = ({delayOffset=0}) => {
   return (
     <motion.div className={styles.main}>
-      <Component1 delayOffset={0.1}/>
+      <Component1 delayOffset={0.5}/>
     </motion.div>
   )
 }

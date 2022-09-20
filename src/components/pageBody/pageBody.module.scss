@@ -1,13 +1,18 @@
 
 .main {
   margin-top: 500px;
+  margin-bottom: 50px;
   height: 100%;
 }
 
 
 .comp1 {
-  height: 100vh;
+  height: 50vh;
   .header {
-    font-size: 30px;
+    font-size: 40px;
+  }
+  .sub1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
