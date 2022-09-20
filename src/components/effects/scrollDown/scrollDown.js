@@ -3,9 +3,12 @@ import { motion } from 'framer-motion';
 import styles from './scrollDown.module.scss';
 import arrow from './arrow.module.scss';
 
-const ScrollDown = ({delayOffset=0}) => {
+const ScrollDown = ({delayOffset=0, topMargin=0}) => {
   return (
     <motion.div
+      style={{
+        marginTop: topMargin
+      }}
       className={styles.main}
       initial={{opacity: 0, y:-10}}
       animate={{opacity: 1, y: 0}}

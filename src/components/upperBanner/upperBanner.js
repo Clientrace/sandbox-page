@@ -6,7 +6,7 @@ const UpperBanner = ({delayOffset=0}) => {
   return (
     <motion.div className={styles.main}>
       <div className={styles.init}>
-        Clarence made you a gift:
+        🎁 Clarence made you a gift:
       </div>
       <motion.div
         className={styles.comp1}

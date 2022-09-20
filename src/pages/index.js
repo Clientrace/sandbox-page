@@ -12,7 +12,7 @@ const Home = () => {
     <div className={styles.main}>
       <UpperBanner/>
       <VerticalBar delayOffset={0.5}/>
-      <ScrollDown delayOffset={1.5}/>
+      <ScrollDown delayOffset={1.5} topMargin={'300px'}/>
       <PageBody delay={2}/>
     </div>
   )

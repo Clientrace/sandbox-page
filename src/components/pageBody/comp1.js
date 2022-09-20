@@ -3,14 +3,14 @@ import { motion } from 'framer-motion';
 import styles from './pageBody.module.scss';
 import VerticalBar from '../../components/effects/verticalBar/verticalBar.js';
 
-const Component1 = ({delayOffset}) => {
+const Component1 = ({delayOffset=0}) => {
   return (
     <motion.div
       className={styles.comp1}
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 1, delay: delayOffset}}>
-      First off,
+      And lastly, I wanna say
       <motion.div
         className={styles.header}
         initial={{opacity: 0, fontSize: '40px'}}

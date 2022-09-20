@@ -1,6 +1,6 @@
 
 .main {
-  margin-top: 500px;
+  margin-top: 100px;
   margin-bottom: 50px;
   height: 100%;
 }
@@ -14,5 +14,22 @@
   .sub1 {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+}
+
+.comp2 {
+  height: 50vh;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  .miniHeader{
+    font-size: 13px;
+  }
+  .content {
+    font-size: 25px;
   }
 }
