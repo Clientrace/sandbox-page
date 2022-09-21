@@ -18,7 +18,7 @@ const Component2 = ({delayOffset=0}) => {
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{delay: 0.5+delayOffset}}>
-        "There is only one happiness in this life, to love and be loved."
+        &quot;There is only one happiness in this life, to love and be loved.&quot;
       </motion.div>
       <motion.div
         initial={{opacity: 0}}
