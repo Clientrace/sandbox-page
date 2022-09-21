@@ -9,7 +9,7 @@ const Component2 = ({delayOffset=0}) => {
       initial={{opacity: 0, backgroundColor: 'white'}}
       whileInView={{opacity: 1, backgroundColor: 'black'}}
       transition={{delay: delayOffset, duration: 1}}>
-      <img src="/imgs/leys.png"/>
+      <img src="imgs/leys.png"/>
       <motion.div className={styles.miniHeader}>
         A wise philospher once quoted on her profile picture:
       </motion.div>

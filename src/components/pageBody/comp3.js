@@ -12,7 +12,7 @@ const Component3 = ({delayOffset=0}) => {
       I figure you noticed it already, we&apos;re so different that we&apos;re like this:
       <motion.div className={styles.image}>
         <motion.img
-          src="/imgs/yin-yang.svg"
+          src="imgs/yin-yang.svg"
           initial={{scale: 0.5, rotate: 0}}
           whileInView={{scale: 1, rotate: 180}}
           transition={{duration: 0.8,delay: delayOffset}}/>

@@ -12,7 +12,7 @@ const UpperBanner = ({delayOffset=0}) => {
         animate={{opacity: 1}}
         transition={{duration: 1}}>
         Hi Babi
-        <img src="/imgs/penguin.gif"/>
+        <img src="imgs/penguin.gif"/>
       </motion.div>
       <motion.div
         className={styles.comp2}
