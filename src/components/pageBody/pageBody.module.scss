@@ -32,6 +32,9 @@
   .content {
     font-size: 25px;
   }
+  img {
+    height: 250px;
+  }
 }
 
 .comp3 {
@@ -52,6 +55,14 @@
     margin-top: 60px;
     img {
       width: 300px;
+    }
+  }
+  .sub {
+    width: 40vw;
+    margin-top: 30px;
+    font-size: 15px;
+    p {
+      font-size: 12px;
     }
   }
 }

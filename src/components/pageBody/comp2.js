@@ -9,6 +9,7 @@ const Component2 = ({delayOffset=0}) => {
       initial={{opacity: 0, backgroundColor: 'white'}}
       whileInView={{opacity: 1, backgroundColor: 'black'}}
       transition={{delay: delayOffset, duration: 1}}>
+      <img src="/imgs/leys.png"/>
       <motion.div className={styles.miniHeader}>
         A wise philospher once quoted on her profile picture:
       </motion.div>
@@ -16,13 +17,13 @@ const Component2 = ({delayOffset=0}) => {
         className={styles.content}
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
-        transition={{delay: 1+delayOffset}}>
+        transition={{delay: 0.5+delayOffset}}>
         "There is only one happiness in this life, to love and be loved."
       </motion.div>
       <motion.div
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
-        transition={{delay: 1.5+delayOffset}}>
+        transition={{delay: 1+delayOffset}}>
         - George Sand
       </motion.div>
     </motion.div>
@@ -30,5 +31,4 @@ const Component2 = ({delayOffset=0}) => {
 }
 
 export default Component2;
-
 

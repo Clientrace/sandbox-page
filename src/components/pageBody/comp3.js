@@ -17,6 +17,13 @@ const Component3 = ({delayOffset=0}) => {
           whileInView={{scale: 1, rotate: 180}}
           transition={{duration: 0.8,delay: delayOffset}}/>
       </motion.div>
+      <motion.div className={styles.sub}>
+        Black and White, Zero and One, Noir and Blanc.
+        <p>We live in two different worlds in the past. Glad we still met :D. These differences caused us
+          plenty of fights. I'm really sorry for the moments I made you cry Despite these differences, just like yin and yang,
+          we harmonize.
+        </p>
+      </motion.div>
     </motion.div>
   )
 }
